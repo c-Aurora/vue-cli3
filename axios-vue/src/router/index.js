@@ -39,6 +39,11 @@ Vue.use(VueRouter)
     path: '/concurrence',
     name: 'concurrence',
     component: () => import('../views/concurrence.vue')
+  },
+  {
+    path: '/contactlist',
+    name: '联系人了列表',
+    component: () => import('../views/contactlist.vue')
   }
 ]
 
